@@ -1,307 +1,561 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>Макс Ефименко - Frontend-developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-  <title>Макс Ефименко - Frontend-developer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap&subset=cyrillic"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="css/aos.css" />
-  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <header class="person">
-    <div class="container">
-      <div class="person-header">
-        <img src="img\logo.svg" alt="my-logo" class="logo" />
-        <div class="social-links">
-          <a href="https://github.com/keybr1" class="social-link" target="blank"><img src="img\social\github.svg"
-              alt="github" /></a>
-          <a href="https://www.facebook.com/keybr1" class="social-link" target="blank"><img
-              src="img\social\facebook.svg" alt="facebook" /></a>
-
-          <a href="https://www.linkedin.com/in/keybr1/" class="social-link" target="blank"><img
-              src="img\social\linkedin.svg" alt="linkedin" /></a>
-
-          <a href="https://www.instagram.com/keybr1986/" class="social-link" target="blank"><img
-              src="img\social\instagram.svg" alt="instagram" /></a>
-        </div>
-        <!-- /.social-links -->
-      </div>
-      <!-- /.person-header -->
-
-      <div class="person-content">
-        <div class="person-text">
-          <span class="person-subtitle" data-aos="fade-left" data-aos-delay="100">Frontend Developer</span>
-          <h1 class="person-title" data-aos="fade-left" data-aos-delay="300">
-            Макс Ефименко
-          </h1>
-          <p class="person-description" data-aos="fade-left" data-aos-delay="500">
-            Разрабатываю веб-проекты любой сложности. Работаю с HTML, CSS и
-            Javascript.
-          </p>
-          <button class="button person-button" data-aos="fade-left" data-aos-delay="700">
-            Узнать больше обо мне
-          </button>
-        </div>
-        <!-- /.person-text -->
-        <div class="person-avatar" data-aos="zoom-out-left" data-aos-delay="1000"></div>
-        <!-- /.person-avatar -->
-      </div>
-      <!-- /.person-content -->
-    </div>
-    <!-- /.container -->
-  </header>
-
-  <main>
-    <section class="features section">
+  <body>
+    <header class="person">
       <div class="container">
-        <h2 class="section-title">Знания и навыки</h2>
-        <div class="features-block">
-          <div class="features-item">
-            <img src="img/features/HTML.png" alt="HTML" class="features-image" />
-            <h3 class="features-title">HTML</h3>
-            <p class="features-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Commodi, vitae?
-            </p>
-          </div>
-          <div class="features-item">
-            <img src="img/features/CSS.png" alt="CSS" class="features-image" />
-            <h3 class="features-title">CSS</h3>
-            <p class="features-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Impedit, beatae!
-            </p>
-          </div>
-          <div class="features-item">
-            <img src="img/features/JS.png" alt="Javascript" class="features-image" />
-            <h3 class="features-title">Javascript</h3>
-            <p class="features-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum, temporibus!
-            </p>
-          </div>
-          <div class="features-item">
-            <img src="img/features/React.png" alt="ReactJS" class="features-image" />
-            <h3 class="features-title">ReactJS</h3>
-            <p class="features-text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
-              sapiente?
-            </p>
-          </div>
-          <div class="features-item">
-            <img src="img/features/SCSS.png" alt="SCSS" class="features-image" />
-            <h3 class="features-title">SCSS</h3>
-            <p class="features-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dolorum, natus.
-            </p>
-          </div>
-          <div class="features-item">
-            <img src="img/features/FG.png" alt="Flexbox|Grid" class="features-image" />
-            <h3 class="features-title">Flexbox | Grid</h3>
-            <p class="features-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-              corporis?
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.features -->
-
-    <section class="section projects">
-      <div class="container">
-        <h2 class="section-title">Наиболее интересные проекты</h2>
-
-        <!-- Slider main container -->
-        <div class="swiper-container projects-slider">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide projects-slide">
-              <img src="img/projects/project_1.png" alt="Сайт для ИТ студии" class="project-image" />
-              <div class="project-text">
-                <h3 class="project-title">Сайт для ИТ студии</h3>
-                <div class="project-tech">
-                  <img src="img/projects/tech.png" alt="Технологии" class="project-icon" />
-                  <div class="project-description">
-                    <h4 class="project-subtitle">Технологии</h4>
-                    <p class="project-paragraph">
-                      HTML, CSS, Flexbox, BEM, JQuery
-                    </p>
-                  </div>
-                </div>
-                <!-- /.project-tech -->
-                <div class="project-link">
-                  <img src="img/projects/link.png" alt="Ссылка на проект" class="project-icon" />
-                  <div class="project-description">
-                    <h4 class="project-subtitle">Ссылка на проект</h4>
-                    <a href="https://keybr1.github.io/martaup/" class="project-subtitle_link" target="blank">Сайт
-                      MartaUp</a>
-                  </div>
-                </div>
-                <!-- /.project-link -->
-                <div class="project-about">
-                  <img src="img/projects/about.png" alt="tech stack" class="project-icon" />
-                  <div class="project-description">
-                    <h4 class="project-subtitle">Что делал</h4>
-                    <p class="project-paragraph">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eaque reiciendis quasi iste unde? Animi voluptatibus
-                      quisquam accusamus, dolorum adipisci eum.
-                    </p>
-                  </div>
-                </div>
-                <!-- /.project-about -->
-              </div>
-              <!-- /.project-text -->
-            </div>
-            <div class="swiper-slide projects-slide">
-              <img src="img/projects/project_1.png" alt="Сайт для ИТ студии" class="project-image" />
-              <div class="project-text">
-                <h3 class="project-title">Сайт для ИТ студии</h3>
-                <div class="project-tech">
-                  <img src="img/projects/tech.png" alt="Технологии" class="project-icon" />
-                  <div class="project-description">
-                    <h4 class="project-subtitle">Технологии</h4>
-                    <p class="project-paragraph">
-                      HTML, CSS, Flexbox, BEM, JQuery
-                    </p>
-                  </div>
-                </div>
-                <!-- /.project-tech -->
-                <div class="project-link">
-                  <img src="img/projects/link.png" alt="Ссылка на проект" class="project-icon" />
-                  <div class="project-description">
-                    <h4 class="project-subtitle">Ссылка на проект</h4>
-                    <a href="https://keybr1.github.io/martaup/" class="project-subtitle_link" target="blank">Сайт
-                      MartaUp</a>
-                  </div>
-                </div>
-                <!-- /.project-link -->
-                <div class="project-about">
-                  <img src="img/projects/about.png" alt="tech stack" class="project-icon" />
-                  <div class="project-description">
-                    <h4 class="project-subtitle">Что делал</h4>
-                    <p class="project-paragraph">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eaque reiciendis quasi iste unde? Animi voluptatibus
-                      quisquam accusamus, dolorum adipisci eum.
-                    </p>
-                  </div>
-                </div>
-                <!-- /.project-about -->
-              </div>
-              <!-- /.project-text -->
-            </div>
-            <div class="swiper-slide projects-slide">
-              <img src="img/projects/project_1.png" alt="Сайт для ИТ студии" class="project-image" />
-              <div class="project-text">
-                <h3 class="project-title">Сайт для ИТ студии</h3>
-                <div class="project-tech">
-                  <img src="img/projects/tech.png" alt="Технологии" class="project-icon" />
-                  <div class="project-description">
-                    <h4 class="project-subtitle">Технологии</h4>
-                    <p class="project-paragraph">
-                      HTML, CSS, Flexbox, BEM, JQuery
-                    </p>
-                  </div>
-                </div>
-                <!-- /.project-tech -->
-                <div class="project-link">
-                  <img src="img/projects/link.png" alt="Ссылка на проект" class="project-icon" />
-                  <div class="project-description">
-                    <h4 class="project-subtitle">Ссылка на проект</h4>
-                    <a href="https://keybr1.github.io/martaup/" class="project-subtitle_link" target="blank">Сайт
-                      MartaUp</a>
-                  </div>
-                </div>
-                <!-- /.project-link -->
-                <div class="project-about">
-                  <img src="img/projects/about.png" alt="tech stack" class="project-icon" />
-                  <div class="project-description">
-                    <h4 class="project-subtitle">Что делал</h4>
-                    <p class="project-paragraph">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eaque reiciendis quasi iste unde? Animi voluptatibus
-                      quisquam accusamus, dolorum adipisci eum.
-                    </p>
-                  </div>
-                </div>
-                <!-- /.project-about -->
-              </div>
-              <!-- /.project-text -->
-            </div>
-          </div>
-          <!-- If we need pagination -->
-          <div class="projects-pagination"></div>
-        </div>
-      </div>
-      <!-- /.container -->
-    </section>
-  </main>
-
-  <footer class="section">
-    <div class="container">
-      <h2 class="section-title">Свяжитесь со мной</h2>
-      <div class="contacts-block">
-        <form action="#" class="contacts-form" data-aos="flip-right" data-aos-delay="100">
-          <h4 class="form-title">
-            Давайте поработаем вместе!
-          </h4>
-          <input type="text" class="input input-name" placeholder="Ваше имя" />
-          <input type="text" class="input input-mail" placeholder="example@example.com" required />
-          <button class="button form-button">Напишите мне</button>
-        </form>
-
-        <div class="contacts-text" data-aos="zoom-out" data-aos-delay="300">
-          <div class="contacts-data">
-            <div class="contacts-phone">
-              <h4 class="contacts-title">Телефон</h4>
-              <a href="tel:+79137500150" class="contacts-link">+7 913 7500-150</a>
-            </div>
-            <!-- /.contacts-phone -->
-            <div class="contacts-mail">
-              <h4 class="contacts-title">Почта</h4>
-              <a href="mailto:maximefim@gmail.com" class="contacts-link">maximefim@gmail.com</a>
-            </div>
-            <!-- /.contacts-mail -->
-            <div class="contacts-social">
-              <h4 class="contacts-title">Соцсети</h4>
-              <a href="#" class="contacts-link">t.me/keybr</a>
-              <a href="#" class="contacts-link">vk.com/keybr1</a>
-              <a href="#" class="contacts-link">fb.com/keybr1</a>
-            </div>
-            <!-- /.contacts-social -->
-          </div>
-          <!-- /.contacts-data -->
+        <div class="person-header">
+          <img src="img\logo.svg" alt="my-logo" class="logo" />
           <div class="social-links">
-            <a href="https://github.com/keybr1" class="social-link" target="blank"><img src="img\social\github.svg"
-                alt="github" /></a>
-            <a href="https://www.facebook.com/keybr1" class="social-link" target="blank"><img
-                src="img\social\facebook.svg" alt="facebook" /></a>
+            <a
+              href="https://github.com/keybr1"
+              class="social-link"
+              target="blank"
+              ><img src="img\social\github.svg" alt="github"
+            /></a>
+            <a
+              href="https://www.facebook.com/keybr1"
+              class="social-link"
+              target="blank"
+              ><img src="img\social\facebook.svg" alt="facebook"
+            /></a>
 
-            <a href="https://www.linkedin.com/in/keybr1/" class="social-link" target="blank"><img
-                src="img\social\linkedin.svg" alt="linkedin" /></a>
+            <a
+              href="https://www.linkedin.com/in/keybr1/"
+              class="social-link"
+              target="blank"
+              ><img src="img\social\linkedin.svg" alt="linkedin"
+            /></a>
 
-            <a href="https://www.instagram.com/keybr1986/" class="social-link" target="blank"><img
-                src="img\social\instagram.svg" alt="instagram" /></a>
+            <a
+              href="https://www.instagram.com/keybr1986/"
+              class="social-link"
+              target="blank"
+              ><img src="img\social\instagram.svg" alt="instagram"
+            /></a>
+          </div>
+          <!-- /.social-links -->
+        </div>
+        <!-- /.person-header -->
+
+        <div class="person-content">
+          <div class="person-text">
+            <span
+              class="person-subtitle"
+              data-aos="fade-left"
+              data-aos-delay="100"
+              >Frontend Developer</span
+            >
+            <h1 class="person-title" data-aos="fade-left" data-aos-delay="300">
+              Макс Ефименко
+            </h1>
+            <p
+              class="person-description"
+              data-aos="fade-left"
+              data-aos-delay="500"
+            >
+              Разрабатываю веб-проекты любой сложности. Работаю с HTML, CSS,
+              Javascript и ReactJS.
+            </p>
+            <button
+              class="button person-button"
+              data-aos="fade-left"
+              data-aos-delay="700"
+            >
+              Узнать больше обо мне
+            </button>
+          </div>
+          <!-- /.person-text -->
+          <div
+            class="person-avatar"
+            data-aos="zoom-out-left"
+            data-aos-delay="1000"
+          ></div>
+          <!-- /.person-avatar -->
+        </div>
+        <!-- /.person-content -->
+      </div>
+      <!-- /.container -->
+    </header>
+
+    <main>
+      <section class="features section">
+        <div class="container">
+          <h2 class="section-title">Знания и навыки</h2>
+          <div class="features-block">
+            <div class="features-item">
+              <img
+                src="img/features/HTML.png"
+                alt="HTML"
+                class="features-image"
+              />
+              <h3 class="features-title">HTML</h3>
+              <p class="features-text">
+                Делаю адаптивную кроссбраузерную вёрстку. Так же выполняю
+                блочную/табличную вёрстку и вёрстку e-mail рассылок.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/CSS.png"
+                alt="CSS"
+                class="features-image"
+              />
+              <h3 class="features-title">CSS</h3>
+              <p class="features-text">
+                Использую методологию БЭМ. Работаю с SVG графикой, анимацией.
+                Bootstrap 4.5
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/JS.png"
+                alt="Javascript"
+                class="features-image"
+              />
+              <h3 class="features-title">Javascript</h3>
+              <p class="features-text">
+                Работаю по новым стандартам ES6 и выше. Есть понимание
+                Typescript. Работаю с DOM.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/React.png"
+                alt="ReactJS"
+                class="features-image"
+              />
+              <h3 class="features-title">ReactJS</h3>
+              <p class="features-text">
+                Работаю с ReactJS и Redux. Знаком с Mobx.
+              </p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/SCSS.png"
+                alt="SCSS"
+                class="features-image"
+              />
+              <h3 class="features-title">SCSS</h3>
+              <p class="features-text">Использовал препроцессоры SCSS/SASS.</p>
+            </div>
+            <div class="features-item">
+              <img
+                src="img/features/FG.png"
+                alt="Flexbox|Grid"
+                class="features-image"
+              />
+              <h3 class="features-title">Flexbox | Grid</h3>
+              <p class="features-text">
+                При вёрстке в основном использую Flexbox и Grids.
+              </p>
+            </div>
           </div>
         </div>
-        <!-- /.contacts-text -->
-      </div>
-    </div>
-  </footer>
-  <script src="js/aos.js"></script>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
+        <!-- /.container -->
+      </section>
+      <!-- /.features -->
 
+      <section class="section projects">
+        <div class="container">
+          <h2 class="section-title">Наиболее интересные проекты</h2>
+
+          <!-- Slider main container -->
+          <div class="swiper-container projects-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide projects-slide">
+                <img
+                  src="img/projects/project_1.png"
+                  alt="Сайт для ИТ студии"
+                  class="project-image"
+                />
+                <div class="project-text">
+                  <h3 class="project-title">Сайт для ИТ студии</h3>
+                  <div class="project-tech">
+                    <img
+                      src="img/projects/tech.png"
+                      alt="Технологии"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Технологии</h4>
+                      <p class="project-paragraph">
+                        HTML, CSS, Flexbox, BEM, JQuery
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project-tech -->
+                  <div class="project-link">
+                    <img
+                      src="img/projects/link.png"
+                      alt="Ссылка на проект"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Ссылка на проект</h4>
+                      <a
+                        href="https://keybr1.github.io/martaup/"
+                        class="project-subtitle_link"
+                        target="blank"
+                        >Сайт MartaUp</a
+                      >
+                    </div>
+                  </div>
+                  <!-- /.project-link -->
+                  <div class="project-about">
+                    <img
+                      src="img/projects/about.png"
+                      alt="tech stack"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Что сделал</h4>
+                      <p class="project-paragraph">
+                        С нуля заверстал сайт для ИТ-студии. Использовал JQuery
+                        для слайдера. Дизайн и все элементы доставал из Figma.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project-about -->
+                </div>
+                <!-- /.project-text -->
+              </div>
+
+              <div class="swiper-slide projects-slide">
+                <img
+                  src="img/projects/project_4.png"
+                  alt="Landing для SpaceX"
+                  class="project-image"
+                />
+                <div class="project-text">
+                  <h3 class="project-title">Landing для Space X</h3>
+                  <div class="project-tech">
+                    <img
+                      src="img/projects/tech.png"
+                      alt="Технологии"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Технологии</h4>
+                      <p class="project-paragraph">
+                        HTML, CSS, Flexbox, BEM, JS (libs)
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project-tech -->
+                  <div class="project-link">
+                    <img
+                      src="img/projects/link.png"
+                      alt="Ссылка на проект"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Ссылка на проект</h4>
+                      <a
+                        href="https://keybr1.github.io/spaceX//"
+                        class="project-subtitle_link"
+                        target="blank"
+                        >Space X</a
+                      >
+                    </div>
+                  </div>
+                  <!-- /.project-link -->
+                  <div class="project-about">
+                    <img
+                      src="img/projects/about.png"
+                      alt="tech stack"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Что сделал</h4>
+                      <p class="project-paragraph">
+                        С нуля заверстал сайт Space X. Использовал AOS и Rellax
+                        для анимаций. Дизайн и все элементы из Figma.
+                        Адаптивность.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project-about -->
+                </div>
+                <!-- /.project-text -->
+              </div>
+
+              <div class="swiper-slide projects-slide">
+                <img
+                  src="img/projects/project_5.png"
+                  alt="Доставка пиццы"
+                  class="project-image"
+                />
+                <div class="project-text">
+                  <h3 class="project-title">Интернет-магазин Доставка пиццы</h3>
+                  <div class="project-tech">
+                    <img
+                      src="img/projects/tech.png"
+                      alt="Технологии"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Технологии</h4>
+                      <p class="project-paragraph">HTML, CSS, Javascript</p>
+                    </div>
+                  </div>
+                  <!-- /.project-tech -->
+                  <div class="project-link">
+                    <img
+                      src="img/projects/link.png"
+                      alt="Ссылка на проект"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Ссылка на проект</h4>
+                      <a
+                        href="https://keybr1.github.io/ecommerce_pizza/"
+                        class="project-subtitle_link"
+                        target="blank"
+                        >Ссылка на Интернет-магазин</a
+                      >
+                    </div>
+                  </div>
+                  <!-- /.project-link -->
+                  <div class="project-about">
+                    <img
+                      src="img/projects/about.png"
+                      alt="tech stack"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Что сделал</h4>
+                      <p class="project-paragraph">
+                        Реализовал функционал кнопок, калькулятора, добавление продуктов в корзину и расчет итого на Javascript. Работал с DOM деревом.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project-about -->
+                </div>
+                <!-- /.project-text -->
+              </div>
+
+              <div class="swiper-slide projects-slide">
+                <img
+                  src="img/projects/project_2.png"
+                  alt="Аудио/Видео/Радио плеер"
+                  class="project-image"
+                />
+                <div class="project-text">
+                  <h3 class="project-title">Аудио/Видео/Радио плеер</h3>
+                  <div class="project-tech">
+                    <img
+                      src="img/projects/tech.png"
+                      alt="Технологии"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Технологии</h4>
+                      <p class="project-paragraph">Javascript</p>
+                    </div>
+                  </div>
+                  <!-- /.project-tech -->
+                  <div class="project-link">
+                    <img
+                      src="img/projects/link.png"
+                      alt="Ссылка на проект"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Ссылка на проект</h4>
+                      <a
+                        href="https://github.com/keybr1/MyTunes"
+                        class="project-subtitle_link"
+                        target="blank"
+                        >Ссылка на Github</a
+                      >
+                    </div>
+                  </div>
+                  <!-- /.project-link -->
+                  <div class="project-about">
+                    <img
+                      src="img/projects/about.png"
+                      alt="tech stack"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Что сделал</h4>
+                      <p class="project-paragraph">
+                        Полностью свой плеер на Javascript. Аудио, Видео и Радио
+                        контент. Работал с DOM. Использовал условия, стрелочные
+                        функции, обработчики. Базовая вёрстка.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project-about -->
+                </div>
+                <!-- /.project-text -->
+              </div>
+
+              <div class="swiper-slide projects-slide">
+                <img
+                  src="img/projects/project_3.png"
+                  alt="Калькулятор бюджета"
+                  class="project-image"
+                />
+                <div class="project-text">
+                  <h3 class="project-title">Калькулятор бюджета</h3>
+                  <div class="project-tech">
+                    <img
+                      src="img/projects/tech.png"
+                      alt="Технологии"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Технологии</h4>
+                      <p class="project-paragraph">ReactJS</p>
+                    </div>
+                  </div>
+                  <!-- /.project-tech -->
+                  <div class="project-link">
+                    <img
+                      src="img/projects/link.png"
+                      alt="Ссылка на проект"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Ссылка на проект</h4>
+                      <a
+                        href="https://github.com/keybr1/myFinance-React"
+                        class="project-subtitle_link"
+                        target="blank"
+                        >Ссылка на Github</a
+                      >
+                    </div>
+                  </div>
+                  <!-- /.project-link -->
+                  <div class="project-about">
+                    <img
+                      src="img/projects/about.png"
+                      alt="tech stack"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Что сделал</h4>
+                      <p class="project-paragraph">
+                        Домашний проект на ReactJS. Использовал компонентный
+                        подход. Mobile first. Так же работал с local storage.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project-about -->
+                </div>
+                <!-- /.project-text -->
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="projects-pagination"></div>
+          </div>
+        </div>
+        <!-- /.container -->
+      </section>
+    </main>
+
+    <footer class="section">
+      <div class="container">
+        <h2 class="section-title">Свяжитесь со мной</h2>
+        <div class="contacts-block">
+          <form
+            action="#"
+            class="contacts-form"
+            data-aos="flip-right"
+            data-aos-delay="100"
+          >
+            <h4 class="form-title">Давайте поработаем вместе!</h4>
+            <input
+              type="text"
+              class="input input-name"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="text"
+              class="input input-mail"
+              placeholder="example@example.com"
+              required
+            />
+            <button class="button form-button">Напишите мне</button>
+          </form>
+
+          <div class="contacts-text" data-aos="zoom-out" data-aos-delay="300">
+            <div class="contacts-data">
+              <div class="contacts-phone">
+                <h4 class="contacts-title">Телефон</h4>
+                <a href="tel:+79137500150" class="contacts-link"
+                  >+7 913 7500-150</a
+                >
+              </div>
+              <!-- /.contacts-phone -->
+              <div class="contacts-mail">
+                <h4 class="contacts-title">Почта</h4>
+                <a href="mailto:maximefim@gmail.com" class="contacts-link"
+                  >maximefim@gmail.com</a
+                >
+              </div>
+              <!-- /.contacts-mail -->
+              <div class="contacts-social">
+                <h4 class="contacts-title">Соцсети</h4>
+                <a href="#" class="contacts-link">t.me/keybr</a>
+                <a href="#" class="contacts-link">vk.com/keybr1</a>
+                <a href="#" class="contacts-link">fb.com/keybr1</a>
+              </div>
+              <!-- /.contacts-social -->
+            </div>
+            <!-- /.contacts-data -->
+            <div class="social-links">
+              <a
+                href="https://github.com/keybr1"
+                class="social-link"
+                target="blank"
+                ><img src="img\social\github.svg" alt="github"
+              /></a>
+              <a
+                href="https://www.facebook.com/keybr1"
+                class="social-link"
+                target="blank"
+                ><img src="img\social\facebook.svg" alt="facebook"
+              /></a>
+
+              <a
+                href="https://www.linkedin.com/in/keybr1/"
+                class="social-link"
+                target="blank"
+                ><img src="img\social\linkedin.svg" alt="linkedin"
+              /></a>
+
+              <a
+                href="https://www.instagram.com/keybr1986/"
+                class="social-link"
+                target="blank"
+                ><img src="img\social\instagram.svg" alt="instagram"
+              /></a>
+            </div>
+          </div>
+          <!-- /.contacts-text -->
+        </div>
+      </div>
+    </footer>
+    <script src="js/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
