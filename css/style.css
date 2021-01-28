@@ -117,6 +117,7 @@
 
 * {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
 img {
@@ -623,9 +624,49 @@ body {
   margin-right: 37px;
 }
 
-.contacts-link:hover {
+/* .contacts-link:hover {
   text-decoration: underline;
+} */
+
+.contacts-link {
+  --line: #ffffff;
+  --line-active: #01ffff;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    margin: 0 var(--spacing, 0px);
+    transition: margin .25s;
 }
+.contacts-link svg {
+  width: 276px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  bottom: -55%;
+  transform: translate(-50%, 7px) translateZ(0);
+  fill: none;
+  stroke: var(--stroke, var(--line));
+  stroke-linecap: round;
+  stroke-width: 1.3px;
+  stroke-dasharray: var(--offset, 69px) 278px;
+  stroke-dashoffset: 361px;
+  transition: stroke .25s ease var(--stroke-delay, 0s), stroke-dasharray .35s;
+}
+.contacts-link svg:hover {
+  --spacing: 4px;
+  --stroke: var(--line-active);
+  --stroke-delay: .1s;
+  --offset: 180px;
+}
+
+.contacts-mail svg {
+  width: 376px;
+  height: 110px;
+  bottom: -80%;
+  stroke-width: 1px;
+}
+
 
 /* responsive */
 
