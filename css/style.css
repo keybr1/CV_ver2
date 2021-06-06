@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 *:focus, *:active {
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
@@ -514,7 +518,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 44px;
+  margin-top: 34px;
 }
 
 .projects-bullet {
@@ -800,7 +804,6 @@ body {
     flex-basis: 100%;
     margin-bottom: 30px;
   }
-
   .project-paragraph {
     font-size: 14px;
   }
