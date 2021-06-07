@@ -4,6 +4,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/* social-links */
+
 *:focus, *:active {
   outline: none !important;
   -webkit-tap-highlight-color: transparent;
@@ -136,7 +138,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 945px;
   margin: auto;
 }
@@ -269,13 +271,13 @@ body {
   position: relative;
   font-weight: 700;
   border: 0;
-  width: 300px;
+  max-width: 300px;
   min-width: 150px;
   height: 65px;
   line-height: 55px;
   transition: background 0.2s;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .button:hover {
@@ -836,6 +838,18 @@ body {
     line-height: 16px;
     display: block;
     margin-bottom: 13px;
+  }
+}
+
+@media (max-width: 450px) {
+  .social-links {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .contacts-social {
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 }
 
